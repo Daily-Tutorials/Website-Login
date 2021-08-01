@@ -108,7 +108,7 @@ Now you have a password! But what if someone **didn't** want to use your passcod
 
 Make an incorrect passcode tester!
 
-###### Test if value is incorrect
+### Test if value is incorrect
 
 It's very simple. We just need an `else` statement after the `if`.
 
@@ -120,7 +120,7 @@ if (password_value.includes("The_Passcode")) {
 
 }
 ```
-###### make a system that makes it impossible to get in
+### make a system that makes it impossible to get in
 
 in the `else` statement, make an alert(), then a page refresh:
 ```
@@ -136,7 +136,11 @@ if you put in the wrong passcode, it'll tell you it's wrong,
 then, if you put in the right passcode, it'll still tell you it's wrong.
 You need to reset the page so there are no issues.
 
-**TADA! ~ You have a prompt system.**
+### If you want page refresh faster _(optional)_
+
+just replace `location.replace(window.location.href);` to `window.location.href = window.location.href;`
+
+**Viola ~ You have a prompt system.**
 
 ## Replacing the page after correct passcode
 
