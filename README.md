@@ -18,7 +18,7 @@ First, the natural way. here are is a way of doing this:
 
 # 1: The real way (HTML)
 
-#### Full source code [here](source-code)
+#### Full source code at end of page 🡣
 
 1. Go to your favorite HTML editor >
 2. Create a new file. >
