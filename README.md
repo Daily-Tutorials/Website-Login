@@ -8,7 +8,7 @@ here's a preview:
 ![Passcode login](https://user-images.githubusercontent.com/88277347/127772493-124be5d7-a863-4923-8be8-b9f02c48acad.png)
 
 
-On something like, for example, "an IP camera".
+On something like, for example, "**an IP camera**".
 
 If you try to preview by browser, It'll prompt you to 
 enter a username and password.
@@ -156,8 +156,7 @@ pageContents(page);
 ```
 when you trigger the correct passcode, just run the `replacePage()` function shown above, and it'll replace the entire page with your HTML contents.
 
-#source-code
-
+# Source code:
 ```
 <input style="display: none;" type="text" id="your_id" />
 
